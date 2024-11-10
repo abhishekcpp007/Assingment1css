@@ -1,0 +1,51 @@
+
+body{
+    background-color: black;
+    place-items: center;
+}
+header>nav{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    overflow-x: visible;
+    gap: 50px;
+    justify-content:  space-around;
+
+    
+}
+ul{
+    display: flex;
+    gap: 340px;
+    padding: 5px;
+    margin: 2px;
+    
+}
+li{
+    gap: 100%;
+    justify-items: stretch;
+    justify-content: space-between;
+}
+
+
+ .ratan-tata{
+    
+    width: 800px;
+    height: 900px;
+    place-items: center;
+    
+    
+    background-image: linear-gradient(transparent , black) ,url('./sirRatan.jpg');
+    background-position: center center ;
+    background-size: 100%;
+    padding-top: 10px;
+
+
+
+
+
+    
+}
+div:hover{
+    background: linear-gradient(rgb(82, 81, 81),rgb(196, 192, 192) 1%, transparent);
+    cursor: pointer;
+
+} 
